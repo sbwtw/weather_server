@@ -1,0 +1,14 @@
+[package]
+name = "weather_server"
+version = "0.1.0"
+authors = ["石博文 <sbw@sbw.so>"]
+
+[dependencies]
+geoip = { path = "../rust-geoip" }
+rocket = "*"
+rocket_codegen = "*"
+hyper = "*"
+hyper-native-tls = "*"
+rustc-serialize = "*"
+serde_json = "*"
+lazy_static = "*"
